@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Sandbox.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/Mecca.unity
+    guid: ee8eb93e4538aed49a46bad9d1914a19
+  - enabled: 0
+    path: Assets/Scenes/Medina.unity
+    guid: 40d575224af03484484e42adbb4d5e27
+  - enabled: 0
+    path: Assets/Scenes/Peninsula.unity
+    guid: c0b38dd08013b424ca696911db8a80d4
   m_configObjects: {}
