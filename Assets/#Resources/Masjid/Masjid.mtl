@@ -1,0 +1,54 @@
+# Exported from 3D Builder
+
+newmtl Mat_0
+Kd 1.000000 1.000000 1.000000
+map_Kd whmarble.jpg.jpeg
+
+newmtl Green_0
+Kd 0.129412 0.733333 0.298039
+
+newmtl Mat_1
+Kd 1.000000 1.000000 1.000000
+map_Kd Pintu 1.png
+
+newmtl Mat_2
+Kd 1.000000 1.000000 1.000000
+map_Kd Jendela.png
+
+newmtl Mat_3
+Kd 1.000000 1.000000 1.000000
+map_Kd brmarble.jpg.jpeg
+
+newmtl Turquoise_0
+Kd 0.000000 0.627451 0.909804
+
+newmtl Mat_4
+Kd 1.000000 1.000000 1.000000
+map_Kd Jendela 2.png
+
+newmtl White_0
+Kd 0.878431 0.878431 0.878431
+
+newmtl Mat_5
+Kd 1.000000 1.000000 1.000000
+map_Kd Pintu 2.png
+
+newmtl Mat_6
+Kd 1.000000 1.000000 1.000000
+map_Kd Fance.png
+
+newmtl Mat_7
+Kd 1.000000 1.000000 1.000000
+map_Kd Fance 2.png
+
+newmtl Mat_8
+Kd 1.000000 1.000000 1.000000
+map_Kd IMG-20120825-01180.jpg.jpeg
+
+newmtl Mat_9
+Kd 1.000000 1.000000 1.000000
+map_Kd Allah.png
+
+newmtl Mat_10
+Kd 1.000000 1.000000 1.000000
+map_Kd grmarble.jpg.jpeg

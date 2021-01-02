@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Sandbox.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
-    path: Assets/Scenes/Mecca.unity
+    path: Assets/Scenes/Tabuk.unity
     guid: ee8eb93e4538aed49a46bad9d1914a19
   - enabled: 0
     path: Assets/Scenes/Medina.unity
@@ -17,4 +17,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Peninsula.unity
     guid: c0b38dd08013b424ca696911db8a80d4
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a2a8626d70a3b4a4ab42ad8e5a08c0a5,
+      type: 2}
