@@ -13,6 +13,9 @@ public class AnimationController_Sham : AnimationController_Base
     [Header("Clip-4")]
     [SerializeField] private float startTimescaleDelay;
     [SerializeField] private float timescaleDelay;
+    
+    [Header("Clip-5")]
+    [SerializeField] private ArabicConvert_Base armyArrangementTextField;
 
     IEnumerator PlayClip_1()
     {
@@ -73,5 +76,51 @@ public class AnimationController_Sham : AnimationController_Base
 
             yield return new WaitForSeconds(timescaleDelay);
         }
+    }
+    IEnumerator PlayClip_5()
+    {
+        Time.timeScale = 0.1f;
+
+        timelineSlider.value = 0f;
+        currentTime.arabicText = "رجب \n 15";
+        currentTime.SetArabText();
+
+        bottomPanelText.arabicText = "توزع الجيش";
+        bottomPanelText.SetArabText();
+
+        armyArrangementTextField.arabicText = "اللواء الأعظم : أبوبكر الصديق" +
+            "\nالراية العظمى : الزبير بن العوام" +
+            "\nراية الأوس : أسيد بن خضير" +
+            "\nراية الخزرج : أبو دجانة" +
+            "\nراية بني مالك : زيد بن ثابت";
+        armyArrangementTextField.SetArabText();
+
+        yield return new WaitForEndOfFrame();
+    }
+    IEnumerator PlayClip_6()
+    {
+        Time.timeScale = 0.1f;
+
+        timelineSlider.value = 0f;
+        currentTime.arabicText = "شعبان \n 1";
+        currentTime.SetArabText();
+
+        bottomPanelText.arabicText = "السرايا التي \nبعثها النبي من تبوك";
+        bottomPanelText.SetArabText();
+
+        yield return new WaitForEndOfFrame();
+    }
+    IEnumerator PlayClip_7()
+    {
+        Time.timeScale = 0.1f;
+
+        timelineSlider.value = 0f;
+        currentTime.arabicText = "شعبان \n 1";
+        currentTime.SetArabText();
+
+        sidePanelText.arabicText = " - حكم صلاة المسافر \n\n - خطبة النبي \n صلى الله عليه وسلم \n\n - معجزات النبي \n صلى الله عليه وسلم ";
+        sidePanelText.SetArabText();
+
+        yield return new WaitForEndOfFrame();
     }
 }
