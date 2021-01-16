@@ -121,6 +121,66 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &296297570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 296297572}
+  - component: {fileID: 296297571}
+  m_Layer: 0
+  m_Name: MoviePresenter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &296297571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296297570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ae659fe776fc64abbaf0b72a2f5ba3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 32900000, guid: b7f241b995dadc1468993b9139a28a16, type: 3}
+  - {fileID: 32900000, guid: 6f6e7bbbad0a27a49a62bbefd6c87e26, type: 3}
+  - {fileID: 32900000, guid: accbe234aaaff6a4a96c1faeecf408fa, type: 3}
+  - {fileID: 32900000, guid: cfd4a8ac26132334b89bb4e566e1c35f, type: 3}
+  - {fileID: 32900000, guid: 5e25ada20bf044d4b8fa735f3a27d75d, type: 3}
+  - {fileID: 32900000, guid: 4dd49d1b93e2b5c41aa39b572cd844ea, type: 3}
+  - {fileID: 32900000, guid: e54653a632000e14a990925c8145d735, type: 3}
+  - {fileID: 32900000, guid: 16277fce2ad54d74899256b1c08476be, type: 3}
+  - {fileID: 32900000, guid: 26791e7001d189a4aac4f100c1e558f0, type: 3}
+  - {fileID: 32900000, guid: adc6157a874c09f46bc3cd785b5273ee, type: 3}
+  - {fileID: 32900000, guid: dff5f58df7123f945be5089bb0966723, type: 3}
+  - {fileID: 32900000, guid: 1ed973709881a6543b3e042e07f604b0, type: 3}
+  - {fileID: 32900000, guid: 3d314ee00c6ec3b479a16dffbf12d0a5, type: 3}
+  - {fileID: 32900000, guid: 0b77b56d4e7394c449537d28ab3aeb52, type: 3}
+  - {fileID: 32900000, guid: b1c577f6d87e67e46ba4f14397dcc90f, type: 3}
+  videoPlayer: {fileID: 572243108}
+--- !u!4 &296297572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296297570}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2743.9485, y: 573.3132, z: -0.48632812}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &572243107
 GameObject:
   m_ObjectHideFlags: 0
