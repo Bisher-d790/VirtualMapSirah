@@ -1,0 +1,2 @@
+VirtualMapSirah_Tabuk_Video.mp4 filter=lfs diff=lfs merge=lfs -text
+Builds/VirtualMapSirah_Tabuk_Win_86-64bit/Sirah_Data/sharedassets0.resource filter=lfs diff=lfs merge=lfs -text
